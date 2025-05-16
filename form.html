@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VERTICALLY ALIGNED FORM</title>
+</head>
+<body>
+    <style>
+        div{
+            background-color: orangered;
+        }
+    </style>
+    
+    <h1>FORM</h1>
+    <form action="post">
+        <img src="image.png" alt="form image">
+        <div>
+            <label for="username">Enter Username</label>
+            <input type="text" id="username" name="username" required placeholder="Enter your username">
+        </div>
+        <div>
+            <label for="name">Enter Name</label>
+            <input type="text" id="name" name="name" required placeholder="Enter your name">
+        </div>
+        <div>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+        </div>
+        <div>
+            <label for="place type">Type Of Place:</label>
+            <input type="radio" id="village" name="place type" value="village">
+            <label for="village">Village</label>
+            <input type="radio" id="town" name="place type" value="town">
+            <label for="town">Town</label>
+            <input type="radio" id="city" name="place type" value="city">
+            <label for="city">City</label>
+        </div>
+        <div>
+            <label for="place">Enter Place Of Living</label>
+            <input type="text" id="place" name="place" required placeholder="Enter place of living">
+        </div>
+        <div>
+            <label for="pincode">Enter Pincode</label>
+            <input type="text" id="pincode" name="pincode" required placeholder="Enter pincode">
+        </div>
+    </form>
+    
+    
+
+    
+</body>
+</html>
